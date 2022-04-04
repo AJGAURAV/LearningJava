@@ -29,14 +29,17 @@ public class p4_task01_ifElseControlFlow {
 		System.out.println("Enter CGPA secured : ");
 		cgpa = input.nextFloat();
 		
-		if(cgpa >= 9.0f)
+		if(cgpa >= 9.0f && cgpa < 10.0f)
 			System.out.println("Excellent !");
-		else if(cgpa >= 8.5f)
+		else if(cgpa >= 8.5f && cgpa < 9.0f)
 			System.out.println("Stupendous !");
-		else if(cgpa >= 7.0f)
+		else if(cgpa >= 7.0f && cgpa < 8.5f)
 			System.out.println("Uttamam !");
 		else
 			System.out.println("Ati Uttamam !");
+		
+		if(cgpa > 10.f)
+			System.out.println("fAKE cgpa !");
 		
 		
 		input.close();
