@@ -35,6 +35,20 @@ public class p4_task03_loops {
 			System.out.println(i);
 		}
 		
+		
+		int arr[] = new int[5];
+		System.out.println("Enter values in Array : ");
+		for(int k=0; k<5; k++)
+			arr[k] = input.nextInt();
+		
+		
+		// for each loop
+		System.out.println("Array : ");
+		for(int j:arr) {
+			System.out.println(j);
+		}
+		
+		
 		input.close();
 	}
 	
