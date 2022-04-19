@@ -29,7 +29,7 @@ package Unit_02;
  -Parameterized constructor
  
  */
-public class p8_task01_inheritancInJava {
+public class p8_task01_inheritanceInJava {
 
 	
 	public static void main(String[] args) {
@@ -39,7 +39,6 @@ public class p8_task01_inheritancInJava {
 	g.methodOne();
 	g.methodThree();
 	
-	Two two = new Two(1);
 	D obj = new D(2);
 	obj.methodFour();
 	
