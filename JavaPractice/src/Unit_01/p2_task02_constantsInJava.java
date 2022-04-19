@@ -5,6 +5,7 @@ public class p2_task02_constantsInJava {
 	final int a=15;
 	static final int num=100; // only variable static fncs  can access ..
 	public static final int number=10; // other class can also access this variable..
+	
 	private static final int x=20; // Can't be accessed outside of this class..
 	
 	

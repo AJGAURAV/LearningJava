@@ -19,7 +19,7 @@ package Unit_01;
   -DataType []arrayRefVar;
   
  -Instantiation of array in Java 
- -arrayRefVar=new datatype[size];
+ -arrayRefVar=new datatype [size];
   
  */
 
